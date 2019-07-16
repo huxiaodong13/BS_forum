@@ -1,0 +1,15 @@
+#posts_table {
+	width: 500px;
+}
+
+#posts_table .posts_title a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.readPost{
+	color: black;
+		font-weight: bold;
+	
+}

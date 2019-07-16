@@ -1,0 +1,13 @@
+#add_posts_form #button_row {
+	text-align: center;
+}
+
+#add_posts_form #title_empty {
+	color: red;
+	display: none;
+}
+
+#add_posts_form #content_empty {
+	color: red;
+	display: none;
+}

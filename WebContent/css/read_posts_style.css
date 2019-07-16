@@ -1,0 +1,18 @@
+#posts_table {
+	width: 700px;
+}
+
+#posts_table .posts_title {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+#post_table .posts_author_date{
+	text-align: center;
+}
+#post_table .posts_content{
+	margin_top:20px;
+	text-align: center;
+}
+

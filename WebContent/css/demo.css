@@ -1,0 +1,351 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+#header-content {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;/*剧中显示*/
+    height: 120px;
+}
+#header {
+    background-color: white;
+}
+#logo {
+    float: left;
+}
+#searchbar {
+    float: left;
+    margin-left: 30px;
+}
+#login-links {
+    float: right;
+}
+#login-links a {
+    text-decoration: none;/*去掉下划线*/
+    font-weight: bold;/**/
+    color: black;
+}
+/* #search {
+    background-image: url(../img/inputsearch.png);
+    height: 30px;根据图片高宽设置
+    width: 270px;
+    padding-left: 15px;防止超过输入框
+    padding-right: 15px;输入字数限制
+    border: none;去掉文本边框
+    outline: none;消除高打开时的边框显示
+} */
+
+.search-text {
+	height: 30px;/*根据图片高宽设置*/
+    width: 270px;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+}
+.search-btn {
+	margin-left: -25px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    border: 0;
+    background: url(../img/search.png);
+    background-size: cover;
+}
+.search-btn:hover {
+	background: url(../img/search-hover.png);
+    background-size: cover;
+}
+
+
+#nav_right{
+	 position: fixed;
+	 right: 0.5%;
+	 top: 40%;
+}
+
+#nav_right li{
+	margin-top: 5px;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+}
+#nav_right li a{
+	text-decoration: none;/*去掉下划线*/
+}
+
+/***********************************************************表单****************/
+
+.control-group label {
+	display: inline-block;
+	text-align: right;
+	width: 50px;
+	margin-right: 10px;
+}
+.control-group input {
+	text-align: left;
+	padding: 0.1em 0.6em;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgb(182,182,182);
+	height: 36px;
+	width: 14em;
+	font-size: 16px;
+}
+
+.prompt {
+    text-align: left;
+    padding-left: 30%;
+	color: #ff5b5b;
+	height: 20px;
+}
+
+/**********************************************************中间*******************/
+#content {
+    width: 1000px;
+    margin: 20px auto;
+}
+#left-side {
+    float: left;
+    width: 670px;
+    margin-right: 5px;
+    padding: 7px;
+}
+#right-side {
+    float: left;
+    width: 250px;
+    padding: 5px;
+}
+#nav {
+    background-color: white;
+    overflow: hidden;/*当内容益处元素发生时*/
+    margin-bottom: 5px;
+}
+
+#nav a {//鼠标在上面时，显示黑色
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover {
+    background-color: #333334;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+#nav .current-active {
+    background-color: #333334;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+#nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+}
+#nav ul li {
+    float: left;
+    margin-right: 15px;
+}
+#nav ul li a {
+    text-decoration: none;
+}
+#nav .current-active {/*对技术一词作特别的设置*/
+    background-color: #333344;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+#posts {
+    /*background-color: white;*/
+    margin-top: 3px;
+}
+.avatar {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+.avatar img {
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+}
+.avatar-tooltip{
+    width: 200px;
+    height: 200px;
+}
+.post-title {
+    float: left;
+    width:600px;
+    height: 40px;/*height 与 margin 设置整个回复框与头像一样高，自己调试*/
+    margin: 10px 0;
+}
+.post-title-text {
+    width: 580px;
+    height: 26px;/*只显示一行文字*/
+    overflow: hidden;/*超出部分隐藏*/
+    line-height: 25px;/*防止字符只出现一半*/
+}
+.post-info-text {
+    float: left;
+}
+.reply-count {
+    float: right;
+    margin-right: 10px;
+    height: 18px;
+    background-color: #808080;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+.post{/*使得每个帖子之间有间隙*/
+    margin-bottom: 3px;
+    background-color:white;
+}
+
+.module-title {
+    background-color: white;
+    color: #808080;
+    padding: 3px; /*不顶格显示*/
+    margin-bottom: 2px;
+}
+.hot-avatar {
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+.hot-avatar img {
+    width: 20px;
+    height: 20px;
+    margin: 2px;/*图片居中显示*/
+}
+.hot-post-text {
+    float: left;
+}
+.hot-post-text {
+    width: 210px;
+    height: 20px;/*只显示一行文字*/
+    overflow: hidden;/*超出部分隐藏*/
+    line-height: 19.8px;/*防止字符只出现一半*/
+}
+
+.hot-post-text a{
+	text-decoration: none;/*去掉下划线*/
+}
+.hot-post {
+    background-color: white;
+    margin-top: 2px;
+    padding: 5px;/*不能定格显示*/
+}
+
+#running-status {
+    margin-top: 20px;
+}
+.statistics-name {
+    float: left;
+    width: 80px;/*先设置宽，再右对齐*/
+    text-align: right;
+}
+.statistics-value {
+    float: left;
+    margin-right: 15px;
+}
+.statistics-item {
+    background-color: white;
+}
+#scoreboard {
+    background-color: white;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+#content_panel{
+	background-color: white;
+}
+#column_w610{
+	width: 1000px;
+    margin: 20px auto;
+}
+/**********************************************************底部*********************/
+#footer {
+    background-color: white;
+}
+#footer-content {
+    width: 1000px;
+    margin: 0 auto;
+    height: 120px;
+    background-color: white;
+    /*overflow: hidden;*/
+    position: relative;
+}
+#footer-links {
+    /*margin: 10px;ta的父元素当设置元素与顶端的间距overflow: hidden*/
+    position: absolute;
+    top: 10%;
+}
+#footer-links ul { /*去掉标记*/
+    list-style: none;
+    padding: 0;
+    margin: 0;/*取消链接与版权说明的间隙，因为下面两个都没间隙*/
+}
+#footer-links ul li {
+    float: left;
+    margin-right: 20px;
+}
+#footer-links ul li a {
+    text-decoration: none;
+}
+#update-date { /*更新日期要放到右下角*/
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+}
+
+
+
+
+/*闭合*/
+.clearfix {
+    *z-index: 1;
+}
+.clearfix::after {
+    content: '.';
+    display: block;
+    clear: both;
+
+    height: 0;
+    visibility: hidden;
+}
+/*上下：在中线*/
+.v-center {
+    position: relative; /**两边位置不发生改变*/
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*左右：在中线*/
+.h-center {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+/*右对齐*/
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.error{
+	color:red;
+}
+
+.header_02{
+	margin-top:10px;
+}
+
+
